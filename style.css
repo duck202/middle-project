@@ -82,9 +82,21 @@ footer {
   }
 
   .border_gra {
+    display: flex;
+    flex-direction: column;
+    position: relative;
     background-repeat: no-repeat;
     background-color: rgb(238, 238, 238);
 }
+
+.border_gra_spe {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-repeat: no-repeat;
+    background-color: rgb(238, 238, 238);
+}
+
 
 h3 {
     margin:15px;
@@ -92,7 +104,13 @@ h3 {
     font-size:14px;
 }  
 
-img {
-    padding-right:15px;
+.commercial {
+    padding:0 15.1px;
+}
+
+.map {
+    position: absolute;
+    left:22px;
+    bottom:2px;
 }
 
