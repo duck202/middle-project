@@ -1,4 +1,8 @@
 body {
     direction: rtl;
     text-align: right;
+    background-color:white;
+    background-image: url("images/header_bg.png");
+    background-repeat: repeat-x;
+    background-position-x: top;
 }
