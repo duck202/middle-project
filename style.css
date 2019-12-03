@@ -30,7 +30,6 @@ header {
 }
 
 .main_container {
-    display:flex;
     height:619px;
     margin-top:30px;
     border: 2px solid blue;
@@ -46,4 +45,38 @@ footer {
     background-position-x: top;
     border: 2px solid yellow;
 }
+
+.top_section {
+    display: flex;
+    height:355px;
+    width: 100%;
+    margin-bottom:18px;
+    border: 2px solid darkcyan;
+}
+
+.bottom_section {
+    display: flex;
+    height:216px;
+    width: 100%;
+    border: 2px solid rgb(14, 114, 114);
+}
+
+.top_section>div {
+  height:355px;
+  width:293px ;
+  border: 2px solid rgb(202, 48, 176);
+}
+
+.top_section>div:nth-child(2), .bottom_section>div:nth-child(2) {
+    margin:0 10px;
+}
+
+  .bottom_section>div {
+    height:216px;
+    width:293px;
+    border: 2px solid rgb(202, 48, 176);
+  }
+
+  
+  
 
