@@ -23,11 +23,38 @@ body {
 }
 
 header {
-    display:flex;
+    display: flex;
+    align-items: flex-end;
     width: 100%;
     height: 105px;
     border: 2px solid red;
 }
+
+nav {
+    widows: 757px;
+    margin-right: 140px;
+}
+
+ul {
+    display:flex;
+    padding:0;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+li {
+    border: 2PX solid black;
+    padding:0 18px;
+}
+
+nav>ul>li>a {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    text-decoration-line: none;
+    }
+
+
 
 .main_container {
     height:619px;
