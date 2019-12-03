@@ -30,9 +30,14 @@ header {
     border: 2px solid red;
 }
 
+.logo {
+    position: relative;
+    top:20px;
+    right:-10px;
+}
+
 nav {
-    widows: 757px;
-    margin-right: 140px;
+    width: 757px;
 }
 
 ul {
@@ -45,6 +50,7 @@ ul {
 li {
     border: 2PX solid black;
     padding:0 18px;
+    margin:15px 0;
 }
 
 nav>ul>li>a {
