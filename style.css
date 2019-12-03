@@ -89,9 +89,10 @@ footer {
 h3 {
     margin:15px;
     text-align: center;
+    font-size:14px;
 }  
 
 img {
-    margin-left:15px;
+    padding-right:15px;
 }
 
