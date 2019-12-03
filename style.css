@@ -30,7 +30,7 @@ header {
 }
 
 .main_container {
-    height:619px;
+    height:100%;
     margin-top:30px;
     border: 2px solid blue;
 }
