@@ -28,13 +28,25 @@ header {
     position: relative;
     width: 100%;
     height: 105px;
-    border: 2px solid red;
+    
+}
+
+.homeIcon {
+    position: absolute;
+    right:115px;
+    bottom:10px;
 }
 
 .logo {
     position: relative;
     top:20px;
     right:-10px;
+}
+
+header>nav {
+    position: absolute;
+    bottom:8px;
+    left:0;
 }
 
 nav>ul {
@@ -45,15 +57,16 @@ nav>ul {
 }
 
 nav>ul>li {
-    border: 2PX solid black;
-    padding:0 18px 18px 18px;
+    border-right: 1PX solid rgb(199, 199, 199);
+    /* padding:0 18px 18px 18px; */
 }
 
-nav>ul>li>a {
+header>nav>ul>li>a {
     font-size: 15px;
     color: white;
     font-weight: bold;
     text-decoration-line: none;
+    padding:18px;
     }
 
     .dropdown {
@@ -64,7 +77,7 @@ nav>ul>li>a {
     .dropdown-contect{
         position: absolute;
         right:20px;
-        top:33px;
+        top:23px;
         display: block;
         background-image: url(images/menu_dropdown_bg.png);
         background-repeat:repeat-x;
@@ -119,8 +132,6 @@ footer>nav>ul>li{
     font-size:14px;
     margin:0;
 }
-
-
 
 .top_section {
     display: flex;
@@ -209,13 +220,23 @@ h3 {
 
  .grayBox>.readsp{
     position: absolute;
-    bottom:0;
-    left:0px
+    bottom:5px;
+    left:20px;
 }
 
 .grayBox>.readsp>a{
     color:white;
 
+}
+
+.readDots {
+    position: absolute;
+    bottom:3px;
+    left:0;
+}
+
+.spanreadmore{
+padding-left:15px;
 }
 
 .commercial {
@@ -241,6 +262,7 @@ text-decoration-line: underline;
 .readmore:hover {
     color:blue;
 }
+
 
 .readmore_map {
     display: inline-block;
@@ -294,7 +316,25 @@ text-decoration-line: underline;
         color: white;
         font-weight: bold;
     }
+
+    .navfot {
+        margin: auto;
+        width: 896px;
+
+    }
   
-  
+    .navfot>ul>li{
+        text-align: center;
+    }
+
+    .navfot>ul>li>a {
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-decoration-line: none;
+    margin:10px;
+    }
+    
     
 
