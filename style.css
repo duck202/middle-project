@@ -33,7 +33,7 @@ header {
 
 .homeIcon {
     position: absolute;
-    right:115px;
+    right:130px;
     bottom:10px;
 }
 
@@ -335,7 +335,7 @@ text-decoration-line: underline;
     .searchMenu {
         position: absolute;
         top:23px;
-        left:22px;
+        left:20px;
         height: 21px;
         width: 126px;
         border-radius: 0 10px 0 0;
@@ -365,6 +365,7 @@ text-decoration-line: underline;
     .navfot {
         margin: auto;
         width: 896px;
+        margin-top: 10px;
 
     }
   
@@ -380,9 +381,10 @@ text-decoration-line: underline;
     text-decoration-line: none;
     padding-right:15px;
     }
-    
-    /* .hiddenDots {
-        z-index: 3;
-        height: 500PX;
+
+    footer>nav a:hover{
+     color: #005CA0 !important;
+     text-decoration-line: underline;
     }
- */
+  
+    

@@ -8,12 +8,24 @@
     <title>פז-דף הבית</title>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
+    <script>
+            window.onload = function() {
+            var image=document.getElementById("commercial");
+            var img_array=["images/f.jpg","images/e.jpg","images/h.jpg"];
+            var index=0;
+            var interval = 2000;
+            function slide() {
+                image.src = img_array[index++%img_array.length];
+            }
+            
+            setInterval(slide, interval);
+            }
+            </script>
 </head>
-
 <body>
     <div class="container">
         <header>
-            <img class="homeIcon" src="images/menu_home_blue (1).png">
+            <a href="#"><img class="homeIcon" src="images/menu_home_blue (1).png"></a>
             <div class="searchDiv"><a href="#"><img src="images/search_button.png"></a></div>
             <input class="searchMenu" type="text" placeholder="רשום מילת חיפוש">
             <p><a href="#">English</a></p>
@@ -119,7 +131,7 @@
                         href="#"><span class="readmore">לפרטים נוספים</span><img src="images/read_more_yellow.png"></a>
                 </div>
                 <div class="border_gra" style="background-image: url(images/cube_bg.png);">
-                    <h3>yellow click&pick;</h3><img class="commercial" src="images/e.jpg"><a href="#"><span
+                    <h3>yellow click&pick;</h3><img class="commercial" id="commercial" src="images/e.jpg"><a href="#"><span
                             class="readmore">לפרטים נוספים</span><img src="images/read_more_yellow.png"></a>
                 </div>
                 <div class="border_gra_spe" style="background-image: url(images/cube_bg.png);">
