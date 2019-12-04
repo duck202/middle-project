@@ -229,6 +229,11 @@ h3 {
 
 }
 
+.grayBox>.readsp>a:hover{
+    color: #005CA0;
+
+}
+
 .readDots {
     position: absolute;
     bottom:3px;
@@ -260,7 +265,7 @@ text-decoration-line: underline;
 }
 
 .readmore:hover {
-    color:blue;
+    color: #005CA0;
 }
 
 
@@ -284,7 +289,7 @@ text-decoration-line: underline;
     }
     
     .readmore_map:hover {
-        color:blue;
+        color: #005CA0;
     }
 
     .searchDiv {
@@ -310,12 +315,23 @@ text-decoration-line: underline;
 
     header>p {
         position: absolute;
-        top:29px;
+        top:26px;
         left:165px;
+    }
+
+
+    header>p>a {
         font-size: 12px;
         color: white;
         font-weight: bold;
+        text-decoration-line: none;
     }
+
+    header>p>a:hover {
+    color: #005CA0;
+    }
+
+    
 
     .navfot {
         margin: auto;
