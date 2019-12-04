@@ -49,8 +49,7 @@ nav>ul {
 
 nav>ul>li {
     border: 2PX solid black;
-    padding:0 18px;
-    margin:15px 0;
+    padding:0 18px 18px 18px;
 }
 
 nav>ul>li>a {
@@ -68,7 +67,7 @@ nav>ul>li>a {
     .dropdown-contect{
         position: absolute;
         right:20px;
-        TOP:33px;
+        top:33px;
         display: block;
         background-image: url(images/menu_dropdown_bg.png);
         background-repeat:repeat-x;
@@ -88,6 +87,7 @@ nav>ul>li>a {
     .dropdown:hover>.dropdown-contect>a{
         display:block;
     }
+
 
 .main_container {
     height:619px;
