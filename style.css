@@ -226,13 +226,41 @@ h3 {
 
 .grayBox>.readsp>a{
     color:white;
-
+    background-repeat: no-repeat;
+    background-position: 0 2px;
 }
 
-.grayBox>.readsp>a:hover{
+.grayBox>.readsp>a:hover>img, .border_gra_spe>.map~a:hover>img, .border_gra>a:hover>img{
+    display: none;
+
+}
+.grayBox>.readsp>a:hover {
     color: #005CA0;
+    background-image: url(images/read_more_blue.png);
+    z-index: 3;
 
 }
+  
+.border_gra_spe>.map~a:hover {
+    color: #005CA0;
+    background-image: url(images/read_more_blue.png);
+    z-index: 3;
+    background-repeat: no-repeat;
+    background-position: 225px 14px;
+}
+
+.border_gra_spe>.map~.dotsCenter:hover,.border_gra_spe>.map~.dotsSouth:hover {
+    background-position: 225px 6px;
+}
+
+.border_gra>a:hover {
+    color: #005CA0;
+    background-image: url(images/read_more_blue.png);
+    z-index: 3;
+    background-repeat: no-repeat;
+    background-position: 26px 23px;   
+}
+
 
 .readDots {
     position: absolute;
@@ -241,7 +269,7 @@ h3 {
 }
 
 .spanreadmore{
-padding-left:15px;
+padding-left:12px;
 }
 
 .commercial {
@@ -273,7 +301,7 @@ text-decoration-line: underline;
     display: inline-block;
     font-size: 13px;
     color:#72716d;
-    margin-right:20px;
+    margin-right:26px;
     line-height: 1;
     margin-left:10px;
     text-decoration-line: underline;
@@ -311,6 +339,7 @@ text-decoration-line: underline;
         height: 21px;
         width: 126px;
         border-radius: 0 10px 0 0;
+        font-size: 12px;
     }
 
     header>p {
@@ -352,5 +381,8 @@ text-decoration-line: underline;
     padding-right:15px;
     }
     
-    
-
+    /* .hiddenDots {
+        z-index: 3;
+        height: 500PX;
+    }
+ */
