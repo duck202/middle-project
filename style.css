@@ -406,8 +406,14 @@ text-decoration-line: underline;
     .border_rad1 {
         border:solid black;
         width:13%;
+        height: 38px;
         margin-left:11px;
-
+        background-image: url(images/side_menu_sprite_n.png);
+        background-repeat:no-repeat;
+        font-size: 13px;
+        color: #5c5c5c;
+        line-height: 32px;
+        text-align: center;
   }
 
   .border_rad2 {
@@ -424,6 +430,12 @@ text-decoration-line: underline;
     height: 100%;
     width: 64%;
     padding-top:10px;
+}
+
+.grayBox1 {
+ border:solid springgreen;
+ height: fit-content;
+ width: fit-content;
 }
 
 
