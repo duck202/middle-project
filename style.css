@@ -463,7 +463,6 @@ text-decoration-line: underline;
     flex-direction: column;
     position: relative;
     background-repeat: no-repeat;
-    border:1px solid #cccccc;
     border-radius: 0 15px 0 0;
     height:175px;
     width: 292px;
