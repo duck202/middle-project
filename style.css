@@ -513,6 +513,10 @@ text-decoration-line: underline;
 
 }
 
+.sideboxfont_page2>a:hover {
+    color: #005CA0;
+}
+
 .border_gra_spe1>p {
     margin-right:17px;
     line-height: 1;
@@ -622,4 +626,12 @@ button:hover {
     background-color:#f7ac10;
     border: 1px solid #f0ad57;
     color:#3c3c3c ;
+}
+
+.border_rad1>a {
+    color:#5c5c5c;
+    text-decoration-line: none;
+}
+.border_rad1>a:hover {
+    color: #005CA0;
 }
