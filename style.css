@@ -617,7 +617,7 @@ button {
     background-color:#02548c;
     border: 1px solid#3693c3;
     color: white;
-    MARGIN: 5PX 270PX 0 0;
+    margin: 5PX 270PX 0 0;
 }
 
 
@@ -626,6 +626,7 @@ button:hover {
     background-color:#f7ac10;
     border: 1px solid #f0ad57;
     color:#3c3c3c ;
+    cursor: pointer;
 }
 
 .border_rad1>a {
