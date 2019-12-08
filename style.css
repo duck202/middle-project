@@ -508,6 +508,7 @@ text-decoration-line: underline;
     display: inline;
     font-size:13px;
     color:#6d6d6d;
+    padding-top:10px;
     /* border: solid black; */
 
 }
