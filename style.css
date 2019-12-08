@@ -18,7 +18,7 @@ body {
     margin:auto;
     width:900px;
     height:800px;
-    border: 2px solid green;
+    /* border: 2px solid green; */
 
 }
 
@@ -108,7 +108,7 @@ header>nav>ul>li>a {
 .main_container {
     height:619px;
     margin-top:30px;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 
 footer {
@@ -138,7 +138,7 @@ footer>nav>ul>li{
     height:355px;
     width: 100%;
     margin-bottom:18px;
-    border: 2px solid darkcyan;
+    /* border: 2px solid darkcyan; */
 }
 
 .bottom_section {
@@ -392,7 +392,7 @@ text-decoration-line: underline;
     display: flex;
     height:55px;
     width: 100%;
-    border: 2px solid darkcyan;
+    /* border: 2px solid darkcyan; */
 }
 
 .bottom_section2 {
@@ -410,6 +410,7 @@ text-decoration-line: underline;
         margin-left:11px;
         background-image: url(images/side_menu_sprite_n.png);
         background-repeat:no-repeat;
+        background-position-x:-10px ;
         font-size: 13px;
         color: #5c5c5c;
         line-height: 32px;
@@ -435,7 +436,7 @@ text-decoration-line: underline;
 }
 
 .grayBox1 {
- border:solid springgreen;
+ /* border:solid springgreen; */
  height: fit-content;
  width: fit-content;
 }
