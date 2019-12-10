@@ -162,6 +162,7 @@ footer>nav>ul>li{
   .bottom_section>div {
     height:216px;
     width:293px;
+    border-radius: 0 25px 0 0;
     /* border: 2px solid rgb(202, 48, 176); */
   }
 
